@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash2Bank | Digital Cash Redemption</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <a class="logo" href="#">Cash<span>2</span>Bank</a>
+        <span class="tagline">Your cash. Your bank. Your choice.</span>
+    </header>
+
+    <main class="container">
+        <section class="welcome">
+            <p class="eyebrow">DIGITAL CASH REDEMPTION</p>
+            <h1>Move your money forward.</h1>
+            <p>Explore a simpler way to redeem digital cash vouchers.</p>
+        </section>
+
+        <section class="card">
+            <div class="card-heading">
+                <div>
+                    <h2>Redeem a voucher</h2>
+                    <p>Enter a voucher code to get started.</p>
+                </div>
+                <span class="ticket-icon">↗</span>
+            </div>
+
+            <form id="redeem-form">
+                <label for="voucher">Voucher code</label>
+                <input
+                    id="voucher"
+                    type="text"
+                    placeholder="e.g. DEMO123"
+                    autocomplete="off"
+                    required
+                >
+                <button type="submit">Check voucher</button>
+            </form>
+
+            <p id="message" role="status" aria-live="polite"></p>
+            <p class="demo-note">
+            
+            </p>
+        </section>
+
+        <section class="features">
+            <article class="feature">
+                <span>01</span>
+                <h3>Enter</h3>
+                <p>Provide your voucher code.</p>
+            </article>
+            <article class="feature">
+                <span>02</span>
+                <h3>Validate</h3>
+                <p>Check the voucher's demo status.</p>
+            </article>
+            <article class="feature">
+                <span>03</span>
+                <h3>Redeem</h3>
+                <p>Explore the redemption process.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Cash2Bank &copy; 2026 · Independent portfolio project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
